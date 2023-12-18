@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 300px;
+    font-style:italic;
+    color:linear-gradient(90deg, rgb(106, 165, 191) 84%, rgba(10,184,236,1) 91%, rgba(1,187,238,1) 92%, rgba(0,212,255,1) 100%);
+    
+
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: inherit;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color: black;
+}
+#search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60PX;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(78, 142, 211);
+}
+#button{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background:linear-gradient(90deg, rgba(20,162,222,1) 84%, rgba(10,184,236,1) 91%, rgba(1,187,238,1) 92%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.img-cat{
+    width: 100px;
+    height: 100px;
+}
+#join{
+    background:linear-gradient(90deg, rgba(20,162,222,1) 84%, rgba(10,184,236,1) 91%, rgba(1,187,238,1) 92%, rgba(0,212,255,1) 100%);
+}
+#items {
+   
+  align-content: center;
+}
+/* <section class="new" id="items">
+<div class="container py-5">
+  <div class="row pt-5">
+    <div class="col-lg-7 m-auto">
+      <div class="row">
+      
+        <div class="col-lg-4 col-md-3">
+         <img src="img/smartphone.png" alt="" class="img-cat">
+         <h6>SMART PHONE</h6>
+        </div>
+
+        <div class="col-lg-4 col-md-3">
+          <img src="img/smartwatch.png" alt="" class="img-cat">
+         <h6>SMART WATCH</h6>
+        </div>
+
+        <div class="col-lg-4 col-md-3">
+          <img src="img/headphone.png" alt="" class="img-cat">
+          <h6>HEAD PHONE</h6>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</section> */
